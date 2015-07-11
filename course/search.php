@@ -41,7 +41,6 @@ $usercatlist = coursecat::make_categories_list($capabilities);
 $search = trim(strip_tags($search)); // trim & clean raw searched string
 
 $site = get_site();
-
 $searchcriteria = array();
 foreach (array('search', 'blocklist', 'modulelist', 'tagid') as $param) {
     if (!empty($$param)) {
