@@ -17,7 +17,7 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = 'http://localhost/KIU';
+$CFG->wwwroot   = 'http://localhost/KIU/KIUNEW';
 $CFG->dataroot  = '/var/moodledata';
 $CFG->admin     = 'admin';
 
